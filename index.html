@@ -7,7 +7,6 @@
     <meta name="description" content="Site institucional do IFSP câmpus Hortolândia">
     <title>IFSP Hortolândia</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -30,14 +29,14 @@
     <div class="barra-cinza">
         <nav>
             <ul class="menu">
-                <li><a href="#historico">Histórico</a></li>
-                <li><a href="#localizacao">Localização</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#biblioteca">Biblioteca</a></li>
-                <li><a href="#pesquisa">Pesquisa</a></li>
-                <li><a href="#extensao">Extensão</a></li>
-                <li><a href="#processo-seletivo">Processo Seletivo</a></li>
-                <li><a href="#calendario">Calendário Acadêmico</a></li>
+                <li><a href="index.html">Histórico</a></li>
+                <li><a href=#localizacao>Localização</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="pesquisa.html">Pesquisa</a></li>
+                <li><a href="extensao.html">Extensão</a></li>
+                <li><a href="processo-seletivo.html">Processo Seletivo</a></li>
+                <li><a href="calendario.html">Calendário Acadêmico</a></li>
             </ul>
         </nav>
     </div>
@@ -48,9 +47,11 @@
         <section id="historico" class="section">
             <div class="titulo">
                 <h2>Histórico</h2>
+                <h1>Informações detalhadas sobre o histórico do IFSP câmpus Hortolândia.</h1>
+
+
             </div>
             <div class="texto-historia">
-                <p>Informações detalhadas sobre o histórico do IFSP câmpus Hortolândia.</p>
                 <p>O Instituto Federal de São Paulo - Campus Hortolândia nasceu como parte do Plano de Expansão da Rede
                     Federal de Educação Tecnológica, anunciado pelo governo em 2007. Seu propósito inicial era
                     fortalecer o ensino técnico e tecnológico na região, atendendo à crescente demanda por formação
@@ -100,12 +101,37 @@
 
             <h2 class="titulo">Localização</h2>
             <div>
-                <h1>Informações de Localização</h1>
-                <div>O Instituto Federal de São Paulo - Campus Hortolândia está localizado na Av. Thereza Ana Cecon
-                    Breda, S/N, Hortolândia - SP, 13183-250. Ele faz parte da expansão da Rede Federal de Educação
-                    Tecnológica e iniciou suas atividades educacionais em fevereiro de 2011. O campus oferece cursos
-                    técnicos e superiores, contribuindo para a qualificação profissional na região2.</div>
+                <h1 class="titulo">Informações de Localização</h1>
+                <div>
+                    O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – Campus Hortolândia está
+                    localizado na
+                    <strong>Av. Thereza Ana Cecon Breda, S/N, Hortolândia - SP, CEP 13183-250</strong>. Situado em uma
+                    área estratégica
+                    da cidade, o campus conta com fácil acesso a importantes rodovias da região, como a SP-101 e a
+                    Rodovia dos Bandeirantes,
+                    facilitando o deslocamento de estudantes e servidores vindos de diferentes localidades.
+                    <br><br>
+                    O campus foi inaugurado como parte da política de expansão da Rede Federal de Educação Profissional,
+                    Científica e Tecnológica,
+                    com o objetivo de democratizar o ensino público de qualidade. Suas atividades educacionais tiveram
+                    início em
+                    <strong>fevereiro de 2011</strong>, com foco no ensino técnico e superior.
+                    <br><br>
+                    Atualmente, o IFSP Hortolândia oferece cursos técnicos integrados, subsequentes, cursos de graduação
+                    e pós-graduação,
+                    atuando fortemente nas áreas de informática, eletrônica, engenharia e tecnologias aplicadas. Além
+                    disso, o campus desenvolve
+                    diversos projetos de pesquisa, inovação e extensão, fortalecendo seu compromisso com o
+                    desenvolvimento social, econômico e
+                    educacional da região.
+                    <br><br>
+                    O ambiente do campus é moderno, com laboratórios bem equipados, biblioteca, salas de aula
+                    multimídia, espaços de convivência
+                    e áreas verdes, proporcionando uma infraestrutura adequada para o aprendizado, convivência e
+                    desenvolvimento profissional.
+                </div>
             </div>
+
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.170888499978!2d-47.21488542354889!3d-22.88358877898555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf32ef142cf9%3A0x9b68a6b5131c1542!2sIFSP%20-%20C%C3%A2mpus%20Hortol%C3%A2ndia!5e0!3m2!1spt-BR!2sbr!4v1633007378989!5m2!1spt-BR!2sbr"
                 width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
@@ -149,9 +175,27 @@
         </section>
 
     </main>
+
+
     <footer class="footer">
         <p>&copy; 2025 IFSP Hortolândia. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+
+
 </body>
 
 </html>
