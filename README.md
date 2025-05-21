@@ -1,4 +1,5 @@
-# ifsp-hto
+# 🌐 Recriação do Site do IFSP - Campus Hortolândia
+
 Este projeto visa modernizar o site do Instituto Federal de São Paulo - Campus Hortolândia, proporcionando uma experiência mais intuitiva, responsiva e acessível para todos os usuários.
 
 📁 Estrutura do Projeto
